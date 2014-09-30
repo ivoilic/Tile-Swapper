@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Tile Swapper Demo</title>
+    <style>
+        body:-webkit-full-screen	{ width: 100% }
+        body:-moz-full-screen		{ width: 100% }
+        body:-ms-full-screen		{ width: 100% }
+        body:-o-full-screen		{ width: 100% }
+        body:full-screen			{ width: 100% }
+        body{
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .tile-swap{
+            height: 400px;
+            width: 200px;
+            position: relative;
+            display: inline-block;
+        }
+        p{
+            z-index: 9;
+            position: absolute;
+            color:white;
+            width:100%;
+            text-align: center;
+            font-size: 15px;
+            background: rgba(0,0,0,0.5);
+            padding-top: 10px;
+            height:34px;
+            margin: 0px;
+            padding-top:16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>tile-swapper.js</h3>
+    <div class="tile-swap" data-tile-width="50px" data-tile-height="100px">
+        <p>Static with Changable Tiles</p>
+        <img width="400px" height="800px" src="http://lorempixel.com/400/800/nature/2/"/>
+        <img width="400px" height="800px" src="http://lorempixel.com/400/800/nature/10/"/>
+        <img width="400px" height="800px" src="http://lorempixel.com/400/800/nature/4/"/>
+    </div>
+    <div class="tile-swap" data-tile-width="50px" data-tile-height="100px" data-tile-speed="0">
+        <p>Random with Changable Tiles</p>
+        <img width="400px" height="800px" src="http://lorempixel.com/400/800/nature/2/"/>
+        <img width="400px" height="800px" src="http://lorempixel.com/400/800/nature/10/"/>
+        <img width="400px" height="800px" src="http://lorempixel.com/400/800/nature/4/"/>
+    </div>
+    <div class="tile-swap" data-tile-width="50px" data-tile-height="100px" data-tile-speed="100">
+        <p>Random with Changing Tiles</p>
+        <img width="400px" height="800px" src="http://lorempixel.com/400/800/nature/2/"/>
+        <img width="400px" height="800px" src="http://lorempixel.com/400/800/nature/10/"/>
+        <img width="400px" height="800px" src="http://lorempixel.com/400/800/nature/4/"/>
+    </div>
+    <h5>Copyright 2014 - Ivo Ilic</h5>
+    <h6>Images courtesy of lorempixel.com</h6>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="tile-swapper.js"></script>
+</body>
+</html>
