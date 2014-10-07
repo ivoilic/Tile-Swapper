@@ -1,3 +1,5 @@
+<img src="http://i1068.photobucket.com/albums/u453/ivoilic/Hosted/thumbnail.png" border="0" alt="Tile-Swapper.js Icon photo thumbnail.png"/>
+   
    Tile Swapper
  
    Copyright 2014 - Ivo Ilic
