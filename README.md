@@ -1,4 +1,4 @@
-<img src="http://i1068.photobucket.com/albums/u453/ivoilic/Hosted/thumbnail.png" border="0" alt="Tile-Swapper.js Icon photo thumbnail.png"/>
+<img src="http://i1068.photobucket.com/albums/u453/ivoilic/Hosted/thumbnail.png" border="0" alt="Tile-Swapper.js Icon photo thumbnail.png" width="150px" height="150px"/>
    
    Tile Swapper
  
